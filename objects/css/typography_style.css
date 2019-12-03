@@ -1,0 +1,39 @@
+/*---------- CSS Reset ---------*/
+
+*{
+    padding:0;
+    margin: 0;
+    font-size: 100%;
+    line-height: 1em;
+ }
+ 
+
+ /*------MAIN STYLING-------*/
+ body{
+     width: auto;
+     max-width: 670px;
+     margin-left: auto;
+     background: rgb(224, 182, 127);
+     color: rgb(89, 65, 34);
+
+ }
+
+ h1.{
+    font-family: rig-solid-bold-halftone, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: cadetblue;
+ }
+
+ #headerfont{
+    font-family: jaf-bernina-sans, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+ }
+
+ #font{
+    font-family: source-code-pro, monospace;
+    font-weight: 700;
+    font-style: normal;
+ }
+
