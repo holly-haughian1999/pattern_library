@@ -1,0 +1,42 @@
+/*-----STYLE LINKS-----*/
+
+#nav{
+    color: #fcfcfc;
+    text-decoration: none;
+}
+a{
+    color: #0905e0;
+    text-decoration: none;
+}
+
+/*-----NAV------*/
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+    width: 100%;
+    background-color: darkslateblue;
+    padding: 1em 0;
+    font-size: 0.80em;
+}
+
+nav ul{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+nav ul li{
+    display: inline;
+    margin: 20px;
+}
+
+nav a:link{
+    color: #fafafa;
+}
+
+nav a:hover{
+    border-bottom: none;
+    color: #c5f370;
+}
