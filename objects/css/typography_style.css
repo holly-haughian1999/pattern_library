@@ -1,9 +1,9 @@
 /*---------- CSS Reset ---------*/
 
 *{
-    padding:0;
+   
     margin: 0;
-    
+    box-sizing: border-box;
     line-height: 1em;
  }
  
@@ -15,7 +15,7 @@ nav{
    left: 0;
    margin: 0;
    width: 100%;
-   background-color:#007C89;
+   background-color:#1B2432;
    padding: 1em 0;
    font-size: 1em;
 }
@@ -32,16 +32,16 @@ nav ul li{
 }
 
 nav a:link{
-   color: #fafafa;
+   color: #B76D68;
 }
 
 nav a:hover{
    border-bottom: none;
-   color: #7adfce;
+   color: #B76D68;
 }
 
 a{
-   color: wheat;
+   color: #B76D68;
 }
 
  /*------MAIN STYLING-------*/
@@ -49,7 +49,6 @@ a{
  body{
      width: auto;
      max-width: 670px;
-     margin-left: 1.7cm;
      margin-top: 2cm;
      background: #DBD9D2
      color: rgb(89, 65, 34);
@@ -57,60 +56,158 @@ a{
  }
  
 
- h1.{
-    font-family: rig-solid-bold-halftone, sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    color: cadetblue;
- }
-
- #headerfont{
-    font-family: jaf-bernina-sans, sans-serif;
-    font-weight: 600;
-    font-style: normal;
- }
-
- #font{
-    font-family: source-code-pro, monospace;
-    font-weight: 700;
-    font-style: normal;
- }
 
  /*---TYPOGRAPHY----*/
 
    .scale h1{
       font-size: 4em;
+      margin-left: 1.3cm;
    }
 
    .Typographicscale{
       font-size: 2em;
       margin-left: 0.2cm;
+      margin-left: 1.3cm;
    }
 
    .sentence{
       margin-left: 0.2cm;
+      margin-left: 1.3cm;
+
    }
+
+
+ h1.{
+   font-family: rig-solid-bold-halftone, sans-serif;
+   font-weight: 700;
+   font-style: normal;
+   color: cadetblue;
+   margin-left: 1.3cm;
+
+}
+h1, h2, h3, h4, h5, h6{
+   margin-left: 1.3cm;
+}
+
+#headerfont{
+   font-family: jaf-bernina-sans, sans-serif;
+   font-weight: 600;
+   font-style: normal;
+   margin-left: 1.3cm;
+
+}
+
+#font{
+   font-family: source-code-pro, monospace;
+   font-weight: 700;
+   font-style: normal;
+   margin-left: 1.3cm;
+
+}
+
+p{
+   margin-left: 1.3cm;
+}
+
+blockquote{
+   margin-left: 1.3cm;
+   width: 100%;
+}
+
+
 
  /*----DECORATIVE STYLING----*/
 
-   .scale hr{
+   .row hr{
       display: block;
       overflow: hidden;
       border-style: inset;
       border-width: 1px;
-      width: 50%;
-      height: 5px;
+      width: 80%;
+      height: 2px;
      
       margin-right: auto;
-      background-color: rgb(143, 13, 13);
+      background-color: rgb(0, 0, 0);
       border: 0 none;
-      opacity: 0.5;
+      opacity: 0.2;
+      margin-left: 1.3cm;
    }
 
    /*---DIV STYLING----*/
 
    .p{
-      background: #00515b;
+      background: #121420;
       color: #fafafa;
       padding: 3em 0;
+      width: 100vw;
+      
   }
+  .quote{
+     margin-top: 2em;
+     margin-bottom: 2em;
+     width: 100vw;
+  }
+
+  .fonts{
+     width: 100vw;
+     margin-top: 1em;
+     margin-bottom: 1em;
+  }
+
+  .column {
+   float: left;
+   margin-top: 1em;
+   margin-bottom: 1em;
+   width: 50%;
+   padding: 0px;
+   height: 300px; /* Should be removed. Only for demonstration */
+ }
+ 
+ /* Clear floats after the columns */
+ .row:after {
+   content: "";
+   display: table;
+   clear: both;
+ }
+
+ /*FOOTER*/
+
+ footer {
+    margin-left: 60em;
+   position: relative;
+   text-align: center;
+   font-size: 0.707em;
+   padding: 2em 0 4em 0
+}
+/*FOOTER-LINKS*/
+.connections{
+    position: relative;
+    margin: 0 auto;
+}
+.connections ul{
+    margin: 0;
+    padding: 0;
+}
+.connections li{
+    margin: 0 15px;
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+}
+.connections a:link{
+    border-bottom: none;
+}
+.connections img{
+    opacity: 0.5;
+    border: none;
+}
+.connections a:hover{
+    opacity: 1.0;
+    border-bottom: none;
+    transition: all 0.3s ease-in-out;
+}
+#anchor{
+  text-align: center;
+  display: inline-block;
+}
+
