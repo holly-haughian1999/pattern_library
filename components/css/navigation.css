@@ -5,7 +5,7 @@
     text-decoration: none;
 }
 a{
-    color: #0905e0;
+    color: #7560a5;
     text-decoration: none;
 }
 
@@ -16,7 +16,7 @@ nav{
     left: 0;
     margin: 0;
     width: 100%;
-    background-color: darkslateblue;
+    background-color: rgb(98, 93, 136);
     padding: 1em 0;
     font-size: 0.80em;
 }
@@ -39,4 +39,51 @@ nav a:link{
 nav a:hover{
     border-bottom: none;
     color: #c5f370;
+}
+
+/*---LINK STYLING----*/
+
+.link-one{
+    background:#f8d1d1;
+    color: #fafafa;
+    padding: 3em 0;
+    width: 100vw;
+    height: 40em;
+    margin-top: 1em;
+    margin-left: -0.5em;
+    margin-right: -0.5em;
+}
+
+.link-two{
+    background:#fafafa;
+    color: #fafafa;
+    padding: 3em 0;
+    width: 100vw;
+    height: 40em;
+    margin-top: 1em;
+    margin-left: -0.5em;
+    margin-right: -0.5em;
+}
+
+.link-three{
+    background:#e2d1f8;
+    color: #fafafa;
+    padding: 3em 0;
+    width: 100vw;
+    height: 40em;
+    margin-top: 1em;
+    margin-left: -0.5em;
+    margin-right: -0.5em;
+}
+
+.text1{
+    color: rgb(121, 97, 97);
+    margin-left: 3em;
+    margin-top: 3em;
+}
+
+.text{
+    color: black;
+    margin-left: 3em;
+    margin-top: 3em;
 }
