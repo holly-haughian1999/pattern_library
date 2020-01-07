@@ -7,13 +7,13 @@ Objects
 
 [Typography version](https://holly-haughian1999.github.io/pattern_library/objects/head.html)
 
-[Head version](https://holly-haughian1999.github.io/pattern_library/typography.html)
+[Head version](https://holly-haughian1999.github.io/pattern_library/objects/typography.html)
 
 Components
 
-[Lists version](https://holly-haughian1999.github.io/pattern_library/lists.html)
+[Lists version](https://holly-haughian1999.github.io/pattern_library/components/lists.html)
 
-[Navigation version](https://holly-haughian1999.github.io/pattern_library/navigation.html)
+[Navigation version](https://holly-haughian1999.github.io/pattern_library/components/navigation.html)
 
-(https://holly-haughian1999.github.io/john_baskerville/baskerville.html)
+
 
